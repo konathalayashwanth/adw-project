@@ -1,0 +1,23 @@
+{
+    "name": "ds_config_file",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_gen_sink",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "file_adw_config.csv",
+                "fileSystem": "configurations"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

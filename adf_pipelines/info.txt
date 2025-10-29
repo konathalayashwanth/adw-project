@@ -1,0 +1,6 @@
+selected resource name:		git_to_raw
+selected resource type:		pipeline
+factory name:			adf-adw-pipeline
+factory location:		southindia
+subscription id:		f4e78d70-b5df-4091-802a-c89486c5a6f6
+time of download (UTC):		Tue, 28 Oct 2025 16:07:20 GMT

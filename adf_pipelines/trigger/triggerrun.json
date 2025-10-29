@@ -1,0 +1,24 @@
+{
+    "name": "triggerrun",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "git_to_raw",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Hour",
+                "interval": 24,
+                "startTime": "2025-10-28T12:57:00",
+                "timeZone": "India Standard Time"
+            }
+        }
+    }
+}
